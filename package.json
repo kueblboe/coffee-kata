@@ -1,0 +1,18 @@
+{
+  "name": "coffee-kata",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kueblboe/coffee-kata.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "~1.8.0",
+    "karma-growl-reporter": "~0.1.1",
+    "karma-coffee-preprocessor": "~0.2.1",
+    "karma-jasmine": "~0.3.1",
+    "jasmine-core": "~2.1.2",
+    "karma": "~0.12.28",
+    "karma-phantomjs-launcher": "~0.1.4"
+  }
+}
