@@ -4,12 +4,12 @@ A starting ground for TDD katas with [Coffeescript] and [Jasmine]. This will aut
 
 ## Usage
 
-This assumes you got [node] and [Karma] installed. Then in a terminal run
+This assumes you got [node] installed. Then in a terminal run
 
     git clone https://github.com/kueblboe/coffee-kata.git
     cd coffee-kata
     npm install
-    karma start
+    ./node_modules/karma/bin/karma start
 
 Write your tests and code in the _src_ directory. When you save your files the tests will run and their result will be shown in the terminal and a notification is sent to [Growl].
 
