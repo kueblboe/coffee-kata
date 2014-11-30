@@ -1,6 +1,17 @@
 {
   "name": "coffee-kata",
+  "description": "A starting ground for TDD katas with Coffeescript and Jasmine.",
+  "keywords": [
+    "TDD",
+    "kata",
+    "coffeescript",
+    "jasmine"
+  ],
+  "author": {
+    "name": "Manuel Kueblboeck"
+  },
   "version": "0.1.0",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/kueblboe/coffee-kata.git"
