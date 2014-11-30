@@ -15,7 +15,7 @@ Write your tests and code in the _src_ directory. When you save your files the t
 
 I defined myself an alias for my terminal so I can start a kata by typing 'ck'.
 
-    alias ck="git clone https://github.com/kueblboe/coffee-kata.git; cd coffee-kata; st .; npm install; ./node_modules/karma/bin/karma start"
+    alias ck="git clone git@github.com:kueblboe/coffee-kata.git; cd coffee-kata; st .; npm install; ./node_modules/karma/bin/karma start"
 
 [Coffeescript]: http://coffeescript.org/
 [Jasmine]: http://jasmine.github.io/
