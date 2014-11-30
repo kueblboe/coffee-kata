@@ -1,5 +1,4 @@
 # Specs
-
 describe "Coffee", ->
 
   coffee = null
@@ -10,8 +9,16 @@ describe "Coffee", ->
   it "tastes awesome", ->
     expect( coffee.taste ).toEqual("awesome")
 
+  it "is gone after drinking", ->
+    expect( coffee.full ).toBe(true)
+    expect( coffee.drink().full ).toBe(false)
+
 # Production code
 class @Coffee
 
   constructor: (@taste) ->
+    @full = true
 
+  drink: ->
+    @full = false
+    this
