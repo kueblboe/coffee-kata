@@ -28,7 +28,7 @@ class Textmunger
   mungeWord: (word) ->
     [first, middle..., last] = word[..]
     if last and last.search(/[^\w\s]/) isnt -1
-      this.mungeWord(first + middle.join('')) + last
+      @mungeWord(first + middle.join('')) + last
     else if word.length > 3
       first + middle.reverse().join('') + last
     else
