@@ -1,0 +1,30 @@
+<!--
+Copy this file into the Packages/User folder (e.g. ~/Library/Application Support/Sublime Text 3/Packages/User on OSX).
+Then in a .coffee file type 'kata' followed by a TAB to use this snippet.
+-->
+
+<snippet>
+  <content><![CDATA[
+###
+Coffeescript kata: ${1:Subject}
+${1:Subject} ${2:does...}
+###
+
+# Specs
+describe "${1:Subject}", ->
+
+  beforeEach ->
+    @${1/^(\w)/(?1\l$1:)/g} = new ${1:Subject}
+
+  it "does something", ->
+    expect( @${1/^(\w)/(?1\l$1:)/g}.doSomething() ).toEqual("something")
+
+# Production code
+class ${1:Subject}
+
+  doSomething: ->
+    "something"
+]]></content>
+  <tabTrigger>kata</tabTrigger>
+  <scope>source.coffee</scope>
+</snippet>
