@@ -31,7 +31,7 @@ class Textmunger
     
   mungeWord: (word) ->
     [first, middle..., last] = word
-    if last and last.search(/[^\w]/) isnt -1
+    if last and last.search(/[\w]/) is -1
       @mungeWord(first + middle.join('')) + last
     else if word.length > 3
       first + middle.reverse().join('') + last
