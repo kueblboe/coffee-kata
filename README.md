@@ -4,7 +4,7 @@ A starting ground for TDD katas with [Coffeescript] and [Jasmine]. Tests are aut
 
 ## Usage
 
-This assumes you got [node] installed. Then in a terminal run
+This assumes you got [npm] installed. Then in a terminal run
 
     git clone https://github.com/kueblboe/coffee-kata.git
     cd coffee-kata
@@ -19,6 +19,6 @@ I defined myself an alias for my terminal so I can start a kata by typing 'ck'.
 
 [Coffeescript]: http://coffeescript.org/
 [Jasmine]: http://jasmine.github.io/
-[node]: http://nodejs.org/
+[npm]: https://www.npmjs.com/
 [Karma]: http://karma-runner.github.io/0.12/index.html
 [Growl]: http://growl.info/
